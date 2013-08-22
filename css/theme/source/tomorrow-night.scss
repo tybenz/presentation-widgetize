@@ -48,6 +48,22 @@ $selectionBackgroundColor: $base0C;
 $mainFont: 'Source Sans Pro', sans-serif;
 $headingFont: 'BenchNine', 'Source Sans Pro', sans-serif;
 
+.reveal .base00 { color: $base00; }
+.reveal .base01 { color: $base01; }
+.reveal .base02 { color: $base02; }
+.reveal .base03 { color: $base03; }
+.reveal .base04 { color: $base04; }
+.reveal .base05 { color: $base05; }
+.reveal .base06 { color: $base06; }
+.reveal .base07 { color: $base07; }
+.reveal .base08 { color: $base08; }
+.reveal .base09 { color: $base09; }
+.reveal .base0A { color: $base0A; }
+.reveal .base0B { color: $base0B; }
+.reveal .base0C { color: $base0C; }
+.reveal .base0D { color: $base0D; }
+.reveal .base0E { color: $base0E; }
+.reveal .base0F { color: $base0F; }
 
 // Theme template ------------------------------
 @import "../template/theme";
@@ -78,12 +94,17 @@ $headingFont: 'BenchNine', 'Source Sans Pro', sans-serif;
 }
 
 .reveal pre {
-  box-shadow: none;
-  width: auto;
+  outline: none;
   font-size: 0.7em;
+  width: auto;
+  box-shadow: none;
 
   code {
     max-height: 700px;
-    outline: none;
   }
+}
+
+.reveal code del {
+  color: $base03;
+  text-decoration: none;
 }

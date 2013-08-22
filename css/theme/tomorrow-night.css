@@ -10,6 +10,54 @@ html * {
   color-profile: sRGB;
   rendering-intent: auto; }
 
+.reveal .base00 {
+  color: #1d1f21; }
+
+.reveal .base01 {
+  color: #282a2e; }
+
+.reveal .base02 {
+  color: #373b41; }
+
+.reveal .base03 {
+  color: #969896; }
+
+.reveal .base04 {
+  color: #b4b7b4; }
+
+.reveal .base05 {
+  color: #c5c8c6; }
+
+.reveal .base06 {
+  color: #e0e0e0; }
+
+.reveal .base07 {
+  color: white; }
+
+.reveal .base08 {
+  color: #cc6666; }
+
+.reveal .base09 {
+  color: #de935f; }
+
+.reveal .base0A {
+  color: #f0c674; }
+
+.reveal .base0B {
+  color: #b5bd68; }
+
+.reveal .base0C {
+  color: #8abeb7; }
+
+.reveal .base0D {
+  color: #81a2be; }
+
+.reveal .base0E {
+  color: #b294bb; }
+
+.reveal .base0F {
+  color: #a3685a; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -153,9 +201,13 @@ body {
   text-align: left; }
 
 .reveal pre {
-  box-shadow: none;
+  outline: none;
+  font-size: 0.7em;
   width: auto;
-  font-size: 0.7em; }
+  box-shadow: none; }
   .reveal pre code {
-    max-height: 700px;
-    outline: none; }
+    max-height: 700px; }
+
+.reveal code del {
+  color: #969896;
+  text-decoration: none; }
