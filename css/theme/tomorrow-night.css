@@ -157,4 +157,5 @@ body {
   width: auto;
   font-size: 0.7em; }
   .reveal pre code {
-    max-height: 700px; }
+    max-height: 700px;
+    outline: none; }
