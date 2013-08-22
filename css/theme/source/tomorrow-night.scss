@@ -45,8 +45,8 @@ $backgroundColor: $base01;
 $linkColor: $base0B;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $base0C;
-$mainFont: 'Source Sans Pro', sans-serif;
-$headingFont: 'BenchNine', 'Source Sans Pro', sans-serif;
+$mainFont: 'Source Sans Pro', 'Ubuntu', sans-serif;
+$headingFont: 'BenchNine', 'Source Sans Pro', 'Ubuntu', sans-serif;
 
 .reveal .base00 { color: $base00; }
 .reveal .base01 { color: $base01; }
@@ -100,7 +100,11 @@ $headingFont: 'BenchNine', 'Source Sans Pro', sans-serif;
   box-shadow: none;
 
   code {
+    font-family: 'Terminus (TTF)', 'Source Code Pro', monospace;
     max-height: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1em;
   }
 }
 
