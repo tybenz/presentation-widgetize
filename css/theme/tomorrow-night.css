@@ -189,13 +189,13 @@ body {
   font-size: 4em; }
 
 .reveal h3 {
-  font-size: 3em; }
+  font-size: 2.55em; }
 
 .reveal h4 {
   font-size: 2em; }
 
 .reveal h5 {
-  font-size: 1em; }
+  font-size: 1.2em; }
 
 .reveal .slides {
   text-align: left; }
@@ -212,6 +212,22 @@ body {
     font-weight: bold;
     line-height: 1em; }
 
-.reveal code del {
-  color: #969896;
+.reveal del {
+  color: #444;
   text-decoration: none; }
+
+.reveal section img {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  background: transparent; }
+
+.reveal h1 img,
+.reveal h2 img,
+.reveal h3 img,
+.reveal h4 img,
+.reveal h5 img {
+  vertical-align: bottom; }
