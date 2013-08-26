@@ -100,10 +100,9 @@ $headingFont: 'BenchNine', 'Source Sans Pro', 'Ubuntu', sans-serif;
   box-shadow: none;
 
   code {
-    font-family: 'Terminus (TTF)', 'Source Code Pro', monospace;
+    font-family: 'Source Code Pro', monospace;
     max-height: 700px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 28px;
     line-height: 1em;
   }
 }
@@ -129,4 +128,13 @@ $headingFont: 'BenchNine', 'Source Sans Pro', 'Ubuntu', sans-serif;
 .reveal h4 img,
 .reveal h5 img {
   vertical-align: bottom;
+}
+
+.reveal section > p:first-child img {
+  margin: auto;
+  display: block;
+}
+
+.reveal .center {
+  text-align: center;
 }

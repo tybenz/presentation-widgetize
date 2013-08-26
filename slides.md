@@ -1,4 +1,4 @@
-<h1 class="base0B">Widget-ize All The Things</h1>
+<h1 class="base0B">Widget-ize All The Things!</h1>
 
 
 <h2 class="base0D">Tyler Benziger</h2>
@@ -35,20 +35,20 @@ github.com/tybenz&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;@tybenz&nbsp;&nbsp;&nbsp;
 
 ## The Options
 
-~~Blackbox~~
+- ~~Blackbox~~
 
-~~Framework-based~~
+- ~~Framework-based~~
 
-~~The Sweet Spot~~
+- ~~The Sweet Spot~~
 
 
 ## The Options
 
-Blackbox
+- Blackbox
 
-~~Framework-based~~
+- ~~Framework-based~~
 
-~~The Sweet Spot~~
+- ~~The Sweet Spot~~
 
 
 ```javascript
@@ -56,8 +56,14 @@ $.fn.secret = function() {
 
     return this.each(function() {
         var $this = $( this );
-        $this.on( 'mousedown', function() { $this.addClass( 'show' ); } );
-        $this.on( 'mouseup', function() { $this.removeClass( 'show' ); } );
+
+        $this.on( 'mousedown', function() {
+            $this.addClass( 'show' );
+        });
+
+        $this.on( 'mouseup', function() {
+            $this.removeClass( 'show' );
+        });
     });
 
 };
@@ -71,8 +77,14 @@ $( '#secret' ).secret();
 
     return this.each(function() {
         var $this = $( this );
-        $this.on( 'mousedown', function() { $this.addClass( 'show' ); } );
-        $this.on( 'mouseup', function() { $this.removeClass( 'show' ); } );
+
+        $this.on( 'mousedown', function() {
+            $this.addClass( 'show' );
+        });
+
+        $this.on( 'mouseup', function() {
+            $this.removeClass( 'show' );
+        });
     });
 
 };~}
@@ -86,8 +98,14 @@ $.fn.secret = function() {
 
     {~return this.each(function() {
         var $this = $( this );
-        $this.on( 'mousedown', function() { $this.addClass( 'show' ); } );
-        $this.on( 'mouseup', function() { $this.removeClass( 'show' ); } );
+
+        $this.on( 'mousedown', function() {
+            $this.addClass( 'show' );
+        });
+
+        $this.on( 'mouseup', function() {
+            $this.removeClass( 'show' );
+        });
     });
 
 };
@@ -101,8 +119,14 @@ $( '#secret' ).secret();~}
 
     ~}return this.each(function() {{~
         {~var $this = $( this );
-        $this.on( 'mousedown', function() { $this.addClass( 'show' ); } );
-        $this.on( 'mouseup', function() { $this.removeClass( 'show' ); } );
+
+        $this.on( 'mousedown', function() {
+            $this.addClass( 'show' );
+        });
+
+        $this.on( 'mouseup', function() {
+            $this.removeClass( 'show' );
+        });
     });
 
 };
@@ -116,8 +140,14 @@ $( '#secret' ).secret();~}
 
     return this.each(function() {
         var $this = $( this );
-        ~}$this.on( 'mousedown', function() { $this.addClass( 'show' ); } );{~
-        $this.on( 'mouseup', function() { $this.removeClass( 'show' ); } );
+
+        ~}$this.on( 'mousedown', function() {
+            $this.addClass( 'show' );
+        });{~
+
+        $this.on( 'mouseup', function() {
+            $this.removeClass( 'show' );
+        });
     });
 
 };
@@ -131,8 +161,14 @@ $( '#secret' ).secret();~}
 
     return this.each(function() {
         var $this = $( this );
-        $this.on( 'mousedown', function() { $this.addClass( 'show' ); } );~}
-        $this.on( 'mouseup', function() { $this.removeClass( 'show' ); } );
+
+        $this.on( 'mousedown', function() {
+            $this.addClass( 'show' );
+        });~}
+
+        $this.on( 'mouseup', function() {
+            $this.removeClass( 'show' );
+        });
     {~});
 
 };
@@ -166,9 +202,13 @@ var Secret = Backbone.View.extend({
         'mouseup': 'remove'
     },
 
-    apply: function() { this.$el.addClass( 'show' ) },
+    apply: function() {
+        this.$el.addClass( 'show' )
+    },
 
-    remove: function() { this.$el.removeClass( 'show' ) },
+    remove: function() {
+        this.$el.removeClass( 'show' )
+    }
 });
 ```
 
@@ -180,9 +220,13 @@ var Secret = Backbone.View.extend({
         'mouseup': 'remove'
     }{~,
 
-    apply: function() { this.$el.addClass( 'show' ) },
+    apply: function() {
+        this.$el.addClass( 'show' )
+    },
 
-    remove: function() { this.$el.removeClass( 'show' ) },
+    remove: function() {
+        this.$el.removeClass( 'show' )
+    }
 });~}
 ```
 
@@ -194,9 +238,13 @@ var Secret = Backbone.View.extend({
         'mouseup': 'remove'
     },~}
 
-    apply: function() { this.$el.addClass( 'show' ) },
+    apply: function() {
+        this.$el.addClass( 'show' )
+    },
 
-    remove: function() { this.$el.removeClass( 'show' ) },{~
+    remove: function() {
+        this.$el.removeClass( 'show' )
+    }{~
 });~}
 ```
 
@@ -271,9 +319,13 @@ $.extend( Secret.prototype, widgetMethods, {
         removeEvent: 'mouseup'
     },
 
-    apply: function() { this.$el.addClass( this.options.applyClass ); },
+    apply: function() {
+        this.$el.addClass( this.options.applyClass );
+    },
 
-    remove: function() { this.$el.removeClass( this.options.applyClass ); }
+    remove: function() {
+        this.$el.removeClass( this.options.applyClass );
+    }
 });
 ```
 
@@ -286,9 +338,13 @@ $.extend( Secret.prototype, widgetMethods, {
         removeEvent: 'mouseup'
     },{~
 
-    apply: function() { this.$el.addClass( this.options.applyClass ); },
+    apply: function() {
+        this.$el.addClass( this.options.applyClass );
+    },
 
-    remove: function() { this.$el.removeClass( this.options.applyClass ); }
+    remove: function() {
+        this.$el.removeClass( this.options.applyClass );
+    }
 });~}
 ```
 
@@ -301,9 +357,13 @@ $.extend( Secret.prototype, widgetMethods, {
         removeEvent: 'mouseup'
     },~}
 
-    apply: function() { this.$el.addClass( this.options.applyClass ); },
+    apply: function() {
+        this.$el.addClass( this.options.applyClass );
+    },
 
-    remove: function() { this.$el.removeClass( this.options.applyClass ); }
+    remove: function() {
+        this.$el.removeClass( this.options.applyClass );
+    }
 {~});~}
 ```
 
@@ -569,28 +629,28 @@ $( '.window' ).each( function() {
 # Recap
 
 
-# ![](http://awes0.me/copy-paste-ftw.png)
+![](http://awes0.me/copy-paste-ftw.png)
 
 
-# ![](http://awes0.me/integrate.png)
+![](http://awes0.me/integrate.png)
 
 
-# ![](http://awes0.me/ignore.jpg)
+![](http://awes0.me/ignore.jpg)
 
 
-<h2 class="base0C">A&#9837;$+r@&#9770;&#10015;|&theta;N</h2>
+<h2 class="base0C center">A&#9837;$+r@&#9770;&#10015;|&theta;N</h2>
 
 
-# ![](http://awes0.me/slider.gif)
+![](http://awes0.me/slider.gif)
 
 
-# ![](http://awes0.me/colorpicker.gif)
+![](http://awes0.me/colorpicker.gif)
 
 
-# ![](http://awes0.me/kahn-menu.gif)
+![](http://awes0.me/kahn-menu.gif)
 
 
-# ![](http://awes0.me/radial-menu.gif)
+![](http://awes0.me/radial-menu.gif)
 
 
 # Go <span class="base0B">Forth</span>!
