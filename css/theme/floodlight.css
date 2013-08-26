@@ -158,13 +158,13 @@ body {
 .reveal pre {
   outline: none;
   font-size: 0.7em;
-  width: auto;
+  width: 95%;
   box-shadow: none; }
   .reveal pre code {
     font-family: 'Ubuntu Mono', monospace;
     max-height: 700px;
     font-size: 28px;
-    line-height: 1em; }
+    line-height: 1.2em; }
 
 .reveal del {
   color: #ddd;
@@ -181,7 +181,7 @@ body {
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
   text-shadow: none;
-  letter-spacing: -0.05em; }
+  letter-spacing: -0.04em; }
   .reveal h1 img, .reveal h2 img, .reveal h3 img, .reveal h4 img, .reveal h5 img {
     vertical-align: bottom; }
 
@@ -191,3 +191,6 @@ body {
 
 .reveal .center {
   text-align: center; }
+
+.reveal p {
+  margin-bottom: 0.8em; }

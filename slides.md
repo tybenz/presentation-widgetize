@@ -18,10 +18,10 @@ github.com/tybenz&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;@tybenz&nbsp;&nbsp;&nbsp;
 ### ~~Reduce~~ &#9755; reuse &#9754; ~~refactor~~
 
 
-## Background
+# Background
 
 
-# ![](http://awes0.me/adobe2.png) Adobe
+![](http://awes0.me/adobe.png)
 
 
 ![](http://awes0.me/screen_2013-07-11-08-09-21.png)
@@ -35,20 +35,20 @@ github.com/tybenz&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;@tybenz&nbsp;&nbsp;&nbsp;
 
 ## The Options
 
-- ~~Blackbox~~
+~~Blackbox~~
 
-- ~~Framework-based~~
+~~Framework-based~~
 
-- ~~The Sweet Spot~~
+~~The Sweet Spot~~
 
 
 ## The Options
 
-- Blackbox
+Blackbox
 
-- ~~Framework-based~~
+~~Framework-based~~
 
-- ~~The Sweet Spot~~
+~~The Sweet Spot~~
 
 
 ```javascript
@@ -626,34 +626,51 @@ $( '.window' ).each( function() {
 ```
 
 
-# Recap
-
-
-![](http://awes0.me/copy-paste-ftw.png)
-
-
-![](http://awes0.me/integrate.png)
-
-
-![](http://awes0.me/ignore.jpg)
-
-
-<h2 class="base0C center">A&#9837;$+r@&#9770;&#10015;|&theta;N</h2>
+# A&#9837;$+r@&#9770;&#10015;|&theta;N
 
 
 ![](http://awes0.me/slider.gif)
 
 
+![](http://awes0.me/slider.png)
+
+
 ![](http://awes0.me/colorpicker.gif)
+
+
+![](http://awes0.me/colorpicker.png)
 
 
 ![](http://awes0.me/kahn-menu.gif)
 
 
+![](http://awes0.me/kahn-menu.png)
+
+
 ![](http://awes0.me/radial-menu.gif)
 
 
-# Go <span class="base0B">Forth</span>!
+![](http://awes0.me/radial-menu1.png)
+
+
+![](http://awes0.me/radial-menu2.png)
+
+
+# Recap
+
+
+### Component Checklist
+
+&#9746; Options
+
+&#9746; Browser/User Events
+
+&#9746; Widget logic
+
+&#9746; External events
+
+
+# U.I. Patterns
 
 
 <h2 class="base0D">Tyler Benziger</h2>

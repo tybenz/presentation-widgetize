@@ -66,14 +66,14 @@ $headingFont: 'Ubuntu Title', 'Ubuntu', sans-serif;
 .reveal pre {
   outline: none;
   font-size: 0.7em;
-  width: auto;
+  width: 95%;
   box-shadow: none;
 
   code {
     font-family: 'Ubuntu Mono', monospace;
     max-height: 700px;
     font-size: 28px;
-    line-height: 1em;
+    line-height: 1.2em;
   }
 }
 
@@ -94,7 +94,7 @@ $headingFont: 'Ubuntu Title', 'Ubuntu', sans-serif;
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
   text-shadow: none;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
   img {
     vertical-align: bottom;
   }
@@ -107,4 +107,8 @@ $headingFont: 'Ubuntu Title', 'Ubuntu', sans-serif;
 
 .reveal .center {
   text-align: center;
+}
+
+.reveal p {
+  margin-bottom: 0.8em;
 }
